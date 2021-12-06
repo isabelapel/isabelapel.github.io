@@ -1,0 +1,165 @@
+
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+}
+
+.kursiv {
+  font-style: italic;
+  margin: 0 70px;
+  padding: 0;
+
+}
+
+.alignment {
+
+  text-align: center;
+}
+
+/*angepasst*/
+h1 {
+  font-family: 'Signika', sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140%;
+  /* Zeilenabstand */
+  text-align: center;
+}
+
+
+p {
+  line-height: 150%;
+}
+
+/* für alle Bildergrößen auf der Website, hundert prozent des parent containers */
+img {
+  max-width: 100%;
+}
+
+
+nav {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  margin: 12px 0;
+  }
+
+
+.navoben {
+  text-align: right;
+  letter-spacing: 1px;
+  font-family: 'Signika', sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.navunten {
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  font-size: 10px;
+
+}
+
+nav ul li a:hover {
+  text-decoration: line-through 3px white;
+}
+
+.empty {
+  /* im Kurs geschrieben mit li.empty - wenn class in li auftaucht */
+  width: 100%;
+  border-top: 1px solid gainsboro;
+  top: -5px;
+  position: relative;
+}
+
+
+.project {
+  padding: 50px;
+}
+
+.titel {
+  padding-bottom: 1px;
+}
+
+
+figcaption{
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  border: 1px solid gainsboro;
+  text-decoration: none;
+  color: black;
+  padding: 2px 3px;
+  display:inline-block;
+  margin-top: 0px;
+  /* für margin (also vertikale Regeln) braucht es display:inline-block */
+  border-radius: 6px;
+  transition: background 0.2s ease-in-out, Color 0.2s ease-in-out;
+  /* gibt an in welcher Geschwindigkeit und wie sich das Element verändert */
+}
+
+.button:hover {
+background:gainsboro;
+color:white;
+}
+
+.vimeo {
+  margin: 0 70px;
+  border: 1px solid gainsboro;
+  text-decoration: none;
+  color: gainsboro;
+  padding: 2px 3px;
+  display:inline-block;
+  margin-top: 0px;
+  /* für margin (also vertikale Regeln) braucht es display:inline-block */
+  border-radius: 6px;
+  transition: background 0.2s ease-in-out, Color 0.2s ease-in-out;
+
+}
+
+.vimeo:hover {
+background:gainsboro;
+color:white;
+}
+
+
+footer {
+  text-align: center;
+  margin: 100px;
+}
+
+
+.link {
+
+  text-decoration: none;
+  color: gainsboro;
+  padding: 2px 3px;
+  display:inline-block;
+  margin-top: 0px;
+  /* für margin (also vertikale Regeln) braucht es display:inline-block */
+
+  transition: background 0.2s ease-in-out, Color 0.2s ease-in-out;
+  /* gibt an in welcher Geschwindigkeit und wie sich das Element verändert */
+}
+
+/*keep! */
+.link:hover {
+text-decoration: line-through 3px white;
+}
