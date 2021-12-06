@@ -80,7 +80,13 @@ nav ul li a:hover {
 }
 
 .empty {
-  /* im Kurs geschrieben mit li.empty - wenn class in li auftaucht */
+  width: 70px;
+  border-top: 1px solid gainsboro;
+  top: -5px;
+  position: relative;
+}
+
+.linie {
   width: 100%;
   border-top: 1px solid gainsboro;
   top: -5px;
